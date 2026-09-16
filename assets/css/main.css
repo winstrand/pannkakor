@@ -1,0 +1,548 @@
+/* Desktop */
+* {
+}
+
+:root {
+
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 64px;
+
+  position: relative;
+  max-width: 2000px;
+  height: 1900px;
+
+  background: rgba(161, 0, 0, 0.3);
+
+}
+
+html {}
+
+a {}
+button, input {}
+
+img {
+  width: inherit;
+  height: inherit;
+}
+
+main {
+  background: rgba(255, 255, 255, 1);
+  width: 75vw;
+}
+
+/* Auto layout */
+.auto-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 64px;
+
+  position: relative;
+  width: 2000px;
+  height: 1900px;
+
+  background: rgba(161, 0, 0, 0.3);
+}
+
+#breadcrumb {
+  display:none;
+}
+
+/*
+ ******************************************************************************
+ *
+ ******************************************************************************
+ */
+hgroup {
+  /*margin-left: 25px;*/
+}
+#receptContent {
+  margin-left: 25px;
+
+}
+
+.titleImage {
+  width: 75vw;
+}
+#pagetitle {
+  color: #A10000;
+  font-size: x-large;
+  font-weight: 700;
+  padding-top:25px;
+  padding-bottom: 10px;
+  /*padding:25px*/
+}
+
+.title {
+  /*color: #A10000;*/
+  font-size: large;
+  font-weight: 700;
+  padding-bottom: 20px;
+  padding-top:20px;
+}
+
+.description {
+  background-color: #e6e6e6;
+  /*margin-left: 25px;*/
+  padding:10px;
+
+}
+
+#ingridienser > ul,#steps > ol {
+  margin-left: -20px;
+}
+
+#ingridienser > ul > li, #steps > ol > li {
+  padding-bottom: 5px;
+  padding-top:5px;
+}
+
+#serving {
+  padding-top:5px;
+  padding-bottom: 15px;
+}
+.servingImages {
+  display: flex;
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+}
+
+#servingImage1, #servingImage2 {
+  width: 35vw;
+  padding-inline: 5px;
+}
+
+
+/*
+ ******************************************************************************
+ * Rectangle 1
+ ******************************************************************************
+ */
+.rectangle_1 {
+  box-sizing: border-box;
+
+  width: 1280px;
+  max-width: 1280px;
+  height: 500px;
+  min-height: 500px;
+
+  background: url(.jpg);
+  border: 1px solid #FCFCFC;
+
+/* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*
+ ******************************************************************************
+ * Frame 7
+ ******************************************************************************
+ */
+
+/* Auto layout */
+.auto_layout{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px 48px 64px;
+  gap: 24px;
+
+  width: 1280px;
+  max-width: 1280px;
+  height: 1336px;
+
+  background: #FCFCFC;
+
+/* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*
+ ******************************************************************************
+ * Enkelt recept på pannkakor
+ ******************************************************************************
+ */
+{
+  width: 1184px;
+  height: 38px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+
+  color: #A10000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*
+ ******************************************************************************
+ * Frame 9
+ ******************************************************************************
+ */
+{
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+
+  width: 1184px;
+  height: 54px;
+
+  background: #EBEBEB;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*
+ ******************************************************************************
+ * Gör traditionella tunna pannkakor med detta enkla och goda pannkaksrecept.
+ ******************************************************************************
+ */
+{
+  width: 1152px;
+  height: 22px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * Frame 2
+ ******************************************************************************
+ */
+{
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 1184px;
+  height: 279px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * Frame 10
+ ******************************************************************************
+ */
+{
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 0px;
+  gap: 0px 16px;
+
+  width: 1184px;
+  height: 33px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * Ingredienser
+ ******************************************************************************
+ */
+{
+  width: 152px;
+  height: 33px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * För 4 portioner
+ ******************************************************************************
+ */
+{
+  width: 311px;
+  height: 22px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * 2 1/2 dl vetemjöl 1/2 tsk salt 6 dl mjölk 3 ägg smör (till stekning) sylt, bär eller frukt till servering
+ ******************************************************************************
+ */
+{
+  width: 1184px;
+  height: 192px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * Frame 3
+ ******************************************************************************
+ */
+{
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 1184px;
+  height: 241px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * Så här gör du
+ ******************************************************************************
+ */
+{
+  width: 158px;
+  height: 33px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/*
+ ******************************************************************************
+ * Blanda mjöl och salt i en bunke. Vispa i hälften av mjölken och vispa till
+ * en slät smet. Vispa i resten av mjölken och äggen. Låt smeten vila ca 10
+ * minuter. Stek tunna pannkakor i lite smör, för varje pannkaka, i en stek-
+ * eller pannkakspanna. Servera med sylt, bär eller frukt
+ ******************************************************************************
+ */
+{
+  width: 1184px;
+  height: 192px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * Frame 1
+ ******************************************************************************
+ */
+{
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 1184px;
+  height: 516px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * Serveringsförslag
+ ******************************************************************************
+ */
+{
+  width: 209px;
+  height: 33px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * Frame 6
+ ******************************************************************************
+ */
+{
+  width: 1184px;
+  height: 467px;
+}
+{
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * Rectangle 2
+ ******************************************************************************
+ */
+{
+  position: absolute;
+  width: 580px;
+  min-width: 300px;
+  height: 467px;
+  left: 0px;
+  top: 0px;
+
+  background: url(.jpg), #D9D9D9;
+}
+
+/*  */
+/*
+ ******************************************************************************
+ * Rectangle 3
+ ******************************************************************************
+ */
+{
+  position: absolute;
+  width: 580px;
+  min-width: 300px;
+  height: 467px;
+  left: 604px;
+  top: 0px;
+
+  background: url(.jpg), #D9D9D9;
+}
