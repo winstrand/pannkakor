@@ -15,7 +15,7 @@ body {
 
   position: relative;
   max-width: 2000px;
-  height: 1900px;
+  max-height: 1900px;
 
   background: rgba(161, 0, 0, 0.3);
 
@@ -91,6 +91,7 @@ hgroup {
   background-color: #e6e6e6;
   /*margin-left: 25px;*/
   padding:10px;
+  margin-right: 25px;
 
 }
 
@@ -105,7 +106,8 @@ hgroup {
 
 #serving {
   padding-top:5px;
-  padding-bottom: 15px;
+  /*padding-bottom: 15px;*/
+  padding-right: 10px;
 }
 .servingImages {
   display: flex;
@@ -114,42 +116,18 @@ hgroup {
 }
 
 #servingImage1, #servingImage2 {
-  width: 35vw;
+  width: 100%;
   padding-inline: 5px;
 }
 
 
 /*
  ******************************************************************************
- * Rectangle 1
- ******************************************************************************
- */
-.rectangle_1 {
-  box-sizing: border-box;
-
-  width: 1280px;
-  max-width: 1280px;
-  height: 500px;
-  min-height: 500px;
-
-  background: url(.jpg);
-  border: 1px solid #FCFCFC;
-
-/* Inside auto layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-}
-
-/*
- ******************************************************************************
  * Frame 7
  ******************************************************************************
  */
-
-/* Auto layout */
-.auto_layout{
+#frame_7 {
+  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -162,7 +140,7 @@ hgroup {
 
   background: #FCFCFC;
 
-/* Inside auto layout */
+  /* Inside auto layout */
   flex: none;
   order: 1;
   align-self: stretch;
@@ -171,10 +149,10 @@ hgroup {
 
 /*
  ******************************************************************************
- * Enkelt recept på pannkakor
+ * Enkelt recept pÃ¥ pannkakor
  ******************************************************************************
  */
-{
+#rec_title {
   width: 1184px;
   height: 38px;
 
@@ -198,7 +176,7 @@ hgroup {
  * Frame 9
  ******************************************************************************
  */
-{
+#frame_9 {
   /* Auto layout */
   display: flex;
   flex-direction: column;
@@ -220,10 +198,10 @@ hgroup {
 
 /*
  ******************************************************************************
- * Gör traditionella tunna pannkakor med detta enkla och goda pannkaksrecept.
+ * GÃ¶r traditionella tunna pannkakor med detta enkla och goda pannkaksrecept.
  ******************************************************************************
  */
-{
+#rec_description {
   width: 1152px;
   height: 22px;
 
@@ -243,13 +221,12 @@ hgroup {
   flex-grow: 0;
 }
 
-/*  */
 /*
  ******************************************************************************
  * Frame 2
  ******************************************************************************
  */
-{
+#frame_2 {
   /* Auto layout */
   display: flex;
   flex-direction: column;
@@ -273,7 +250,7 @@ hgroup {
  * Frame 10
  ******************************************************************************
  */
-{
+#frame_10 {
   /* Auto layout */
   display: flex;
   flex-direction: row;
@@ -299,7 +276,7 @@ hgroup {
  * Ingredienser
  ******************************************************************************
  */
-{
+#rec_ingredienser_title {
   width: 152px;
   height: 33px;
 
@@ -321,10 +298,10 @@ hgroup {
 /*  */
 /*
  ******************************************************************************
- * För 4 portioner
+ * FÃ¶r 4 portioner
  ******************************************************************************
  */
-{
+#rec_servings{
   width: 311px;
   height: 22px;
 
@@ -346,10 +323,10 @@ hgroup {
 /*  */
 /*
  ******************************************************************************
- * 2 1/2 dl vetemjöl 1/2 tsk salt 6 dl mjölk 3 ägg smör (till stekning) sylt, bär eller frukt till servering
+ * 2 1/2 dl vetemjÃ¶l 1/2 tsk salt 6 dl mjÃ¶lk 3 Ã¤gg smÃ¶r (till stekning) sylt, bÃ¤r eller frukt till servering
  ******************************************************************************
  */
-{
+#rec_ingredienser_list{
   width: 1184px;
   height: 192px;
 
@@ -375,7 +352,7 @@ hgroup {
  * Frame 3
  ******************************************************************************
  */
-{
+#frame_3 {
   /* Auto layout */
   display: flex;
   flex-direction: column;
@@ -396,10 +373,10 @@ hgroup {
 /*  */
 /*
  ******************************************************************************
- * Så här gör du
+ * SÃ¥ hÃ¤r gÃ¶r du
  ******************************************************************************
  */
-{
+#rec_steps_title{
   width: 158px;
   height: 33px;
 
@@ -420,13 +397,15 @@ hgroup {
 
 /*
  ******************************************************************************
- * Blanda mjöl och salt i en bunke. Vispa i hälften av mjölken och vispa till
- * en slät smet. Vispa i resten av mjölken och äggen. Låt smeten vila ca 10
- * minuter. Stek tunna pannkakor i lite smör, för varje pannkaka, i en stek-
- * eller pannkakspanna. Servera med sylt, bär eller frukt
+ * Blanda mjÃ¶l och salt i en bunke.
+ * Vispa i hÃ¤lften av mjÃ¶lken och vispa till en slÃ¤t smet.
+ * Vispa i resten av mjÃ¶lken och Ã¤ggen.
+ * LÃ¥t smeten vila ca 10 minuter.
+ * Stek tunna pannkakor i lite smÃ¶r, fÃ¶r varje pannkaka, i en stek- eller pannkakspanna.
+ * Servera med sylt, bÃ¤r eller frukt
  ******************************************************************************
  */
-{
+#rec_steps_list {
   width: 1184px;
   height: 192px;
 
@@ -452,7 +431,7 @@ hgroup {
  * Frame 1
  ******************************************************************************
  */
-{
+#frame_1{
   /* Auto layout */
   display: flex;
   flex-direction: column;
@@ -473,10 +452,10 @@ hgroup {
 /*  */
 /*
  ******************************************************************************
- * Serveringsförslag
+ * ServeringsfÃ¶rslag
  ******************************************************************************
  */
-{
+#rec_serving_surgestions{
   width: 209px;
   height: 33px;
 
@@ -501,11 +480,10 @@ hgroup {
  * Frame 6
  ******************************************************************************
  */
-{
+#frame_6{
   width: 1184px;
   height: 467px;
-}
-{
+
   /* Inside auto layout */
   flex: none;
   order: 1;
@@ -513,13 +491,36 @@ hgroup {
   flex-grow: 1;
 }
 
-/*  */
+
+/*
+ ******************************************************************************
+ * Rectangle 1
+ ******************************************************************************
+ */
+.rectangle_1 {
+  box-sizing: border-box;
+
+  width: 1280px;
+  max-width: 1280px;
+  height: 500px;
+  min-height: 500px;
+
+  background: url(.jpg);
+  border: 1px solid #FCFCFC;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
 /*
  ******************************************************************************
  * Rectangle 2
  ******************************************************************************
  */
-{
+#rectangle_2 {
   position: absolute;
   width: 580px;
   min-width: 300px;
@@ -530,13 +531,12 @@ hgroup {
   background: url(.jpg), #D9D9D9;
 }
 
-/*  */
 /*
  ******************************************************************************
  * Rectangle 3
  ******************************************************************************
  */
-{
+#rectangle_3 {
   position: absolute;
   width: 580px;
   min-width: 300px;
@@ -545,4 +545,26 @@ hgroup {
   top: 0px;
 
   background: url(.jpg), #D9D9D9;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #FFF;
+  }
+
+  main {
+    width: 100vw;
+  }
+
+  .titleImage {
+    width: 100vw;
+  }
+
+  .servingImages {
+    flex-direction: column;
+  }
+
+  #servingImage1, #servingImage2 {
+    width: 85vw;
+  }
 }
